@@ -1,0 +1,1 @@
+for f in *\ Large.jpeg; do mv -- "$f" "${f%\ Large.jpeg}-Large.jpg"; done;
