@@ -13,29 +13,29 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 //import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 //import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background Large.jpeg';
-import porfolioAmsterdam1 from '../images/portfolio/amsterdam-1 Large.jpeg';
-import porfolioAmsterdam2 from '../images/portfolio/amsterdam-2 Large.jpeg';
-import porfolioBudapest1 from '../images/portfolio/budapest-1 Large.jpeg';
-import porfolioCopenhagen1 from '../images/portfolio/copenhagen-1 Large.jpeg';
-import porfolioGermany1 from '../images/portfolio/germania-1 Large.jpeg';
-import porfolioGrignetta1 from '../images/portfolio/grignetta-1 Large.jpeg';
-import porfolioIndia1 from '../images/portfolio/india-1 Large.jpeg';
-import porfolioIndia2 from '../images/portfolio/india-2 Large.jpeg';
-import porfolioIndia3 from '../images/portfolio/india-3 Large.jpeg';
-import porfolioIndia4 from '../images/portfolio/india-4 Large.jpeg';
-import porfolioIndia5 from '../images/portfolio/india-5 Large.jpeg';
-import porfolioIndia6 from '../images/portfolio/india-6 Large.jpeg';
-import porfolioIndia7 from '../images/portfolio/india-7 Large.jpeg';
-import porfolioKjerag1 from '../images/portfolio/kjerag-1 Large.jpeg';
-import porfolioLappony1 from '../images/portfolio/lapponia-1 Large.jpeg';
-import porfolioNorway1 from '../images/portfolio/norway-1 Large.jpeg';
-import porfolioNorway2 from '../images/portfolio/norway-2 Large.jpeg';
-import porfolioNorway3 from '../images/portfolio/norway-3 Large.jpeg';
-import porfolioNorway4 from '../images/portfolio/norway-4 Large.jpeg';
-import porfolioNorway5 from '../images/portfolio/norway-5 Large.jpeg';
-import porfolioNorway6 from '../images/portfolio/norway-6 Large.jpeg';
-import porfolioPreikestolen1 from '../images/portfolio/preikestolen-1 Large.jpeg';
+import heroImage from '../images/header-background-Large.jpg';
+import porfolioAmsterdam1 from '../images/portfolio/amsterdam-1-Large.jpg';
+import porfolioAmsterdam2 from '../images/portfolio/amsterdam-2-Large.jpg';
+import porfolioBudapest1 from '../images/portfolio/budapest-1-Large.jpg';
+import porfolioCopenhagen1 from '../images/portfolio/copenhagen-1-Large.jpg';
+import porfolioGermany1 from '../images/portfolio/germania-1-Large.jpg';
+import porfolioGrignetta1 from '../images/portfolio/grignetta-1-Large.jpg';
+import porfolioIndia1 from '../images/portfolio/india-1-Large.jpg';
+import porfolioIndia2 from '../images/portfolio/india-2-Large.jpg';
+import porfolioIndia3 from '../images/portfolio/india-3-Large.jpg';
+import porfolioIndia4 from '../images/portfolio/india-4-Large.jpg';
+import porfolioIndia5 from '../images/portfolio/india-5-Large.jpg';
+import porfolioIndia6 from '../images/portfolio/india-6-Large.jpg';
+import porfolioIndia7 from '../images/portfolio/india-7-Large.jpg';
+import porfolioKjerag1 from '../images/portfolio/kjerag-1-Large.jpg';
+import porfolioLappony1 from '../images/portfolio/lapponia-1-Large.jpg';
+import porfolioNorway1 from '../images/portfolio/norway-1-Large.jpg';
+import porfolioNorway2 from '../images/portfolio/norway-2-Large.jpg';
+import porfolioNorway3 from '../images/portfolio/norway-3-Large.jpg';
+import porfolioNorway4 from '../images/portfolio/norway-4-Large.jpg';
+import porfolioNorway5 from '../images/portfolio/norway-5-Large.jpg';
+import porfolioNorway6 from '../images/portfolio/norway-6-Large.jpg';
+import porfolioPreikestolen1 from '../images/portfolio/preikestolen-1-Large.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -47,7 +47,7 @@ import {
   PortfolioItem,
   SkillGroup,
   Social,
-  //TestimonialSection,
+  TestimonialSection,
   TimelineItem,
 } from './dataDef';
 
@@ -70,7 +70,7 @@ export const SectionId = {
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
-  //Testimonials: 'testimonials',
+  Testimonials: 'testimonials',
 } as const;
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];
